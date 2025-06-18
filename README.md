@@ -29,18 +29,11 @@ Step 5: Predict on test data, inverse transform the results, and calculate the m
 
 Step 6: End
 
+#### Developed by: Malar Mariam S
+#### Register Number: 212223230118
 
 ## Program:
-```
-/*
-Program to implement the multivariate linear regression model for predicting the price of the house and number of occupants in
-the house with SGD regressor.
-Developed by: Mahasri P
-RegisterNumber:  212223100029
-*/
-
-```
-```
+```python
   import numpy as np
   from sklearn.datasets import fetch_california_housing
   from sklearn.linear_model import SGDRegressor
